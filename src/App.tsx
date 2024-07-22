@@ -1,6 +1,9 @@
+import Homework15 from "homeworks/Homework15/Homework15"
 
 function App () {
-  return <>React Resux prodjek</>
+  return <div>
+  <Homework15/>
+</div>
 }
 
 export default App

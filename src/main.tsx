@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom"
 import App from "./App"
 import { store } from "./store/store"
 import GlobalStyles from "./styles/GlobalStyles"
+import Homework15 from "homeworks/Homework15/Homework15"
 
 const container = document.getElementById("root")
 
@@ -14,7 +15,8 @@ if (container) {
     <Provider store={store}>
       <BrowserRouter>
       <GlobalStyles/>
-      <App />
+      {<App />}
+      {/*<Homework15/>*/}
       </BrowserRouter>
     </Provider>,
   )
