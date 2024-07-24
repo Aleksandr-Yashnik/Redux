@@ -1,19 +1,14 @@
-import Input from "components/Input/Input"
-import Counter from "components/Counter/Counter"
-import Button from "components/Button/Button"
+import Counter from 'components/Counter/Counter';
+import Input from 'components/Input/Input';
+import Button from 'components/Button/Button';
+import { useState } from 'react';
 
 function Homework15() {
   return (
-    <>
-      <Input id={""} name={""} label={""} />
-      <Counter count={0} onPlus={function (): void {
-              throw new Error("Function not implemented.")
-          } } onMinus={function (): void {
-              throw new Error("Function not implemented.")
-          } } />
-      <Button name={""} />
-    </>
-  )
+    <div>
+    
+    </div>
+  );
 }
 
-export default Homework15
+export default Homework15;
